@@ -1,0 +1,165 @@
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  --bg-color: #eeeeee;
+  --nav-bg-color: #f3f3f3;
+  --logo-bg-color: #313b48;
+  --menu-bg-color: #373f4c;
+}
+
+.nav-bar {
+  height: 50px;
+  background-color: var(--nav-bg-color);
+}
+
+.left-container {
+  height: 100vh;
+  background-color: var(--menu-bg-color);
+  width: 275px;
+  position: absolute;
+  top: 0px;
+}
+
+.left-sub-container {
+  padding-left: 15px;
+  padding-top: 10px;
+  color: var(--nav-bg-color);
+}
+
+.logo-container,
+.logout-container {
+  height: 50px;
+  background-color: var(--logo-bg-color);
+  display: flex;
+  /* justify-content: c; */
+  align-items: center;
+  text-align: center;
+  padding-left: 20px;
+  color: var(--nav-bg-color);
+  /* opacity: 70%; */
+}
+
+.logout-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.icons-container {
+  height: 50px;
+  width: 250px;
+  /* background-color: #fff; */
+  /* width: auto; */
+  display: flex;
+  position: absolute;
+  right: 0px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search-icon-container,
+.user-icon-container,
+.notification-icon-container {
+  height: 34px;
+  border-radius: 50%;
+  /* border: 1.5px solid black; */
+  width: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--menu-bg-color);
+}
+
+.search-icon,
+.user-icon,
+.notification-icon {
+  height: 16px;
+  width: 16px;
+  color: var(--nav-bg-color);
+}
+
+.dropdown-btn {
+  background: none;
+  border: none;
+}
+
+.logo-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.logout-icon {
+  height: 40px;
+  width: 40px;
+}
+
+.menu-options-ctn {
+  display: flex;
+  margin-left: 15px;
+  opacity: 60%;
+  margin-bottom: 10px;
+}
+
+.menu-icons {
+  height: 28px;
+  width: 28px;
+  margin-right: 10px;
+}
+
+.menu-texts {
+  font-size: 20px;
+  margin: 0;
+}
+
+/* --------------------- Loging ------------------------------ */
+.login-screen-ctn {
+  height: auto;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--nav-bg-color);
+}
+
+.login-container {
+  height: 550px;
+  width: 1000px;
+  display: flex;
+  background: #000;
+}
+
+.left-login-ctn {
+  height: 100%;
+  width: 50%;
+  /* background: white; */
+  /* background-color: hsl(218, 41%, 15%); */
+  background-image: radial-gradient(
+      650px circle at 20% 20%,
+      rgb(99, 109, 129),
+      rgb(79, 89, 109),
+      rgb(69, 79, 99),
+      rgb(49, 59, 79),
+      transparent 100%
+    ),
+    radial-gradient(
+      1550px circle at 50% 100%,
+      rgb(99, 109, 129),
+      rgb(79, 89, 109),
+      rgb(69, 79, 99),
+      rgb(49, 59, 79),
+      transparent 100%
+    );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1200px) {
+}
