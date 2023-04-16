@@ -52,12 +52,12 @@
 
 .icons-container {
   height: 50px;
-  width: 250px;
+  width: 175px;
   /* background-color: #fff; */
   /* width: auto; */
   display: flex;
   position: absolute;
-  right: 0px;
+  right: 10px;
   justify-content: space-around;
   align-items: center;
 }
@@ -128,8 +128,8 @@
 }
 
 .login-container {
-  height: 550px;
-  width: 1000px;
+  height: 600px;
+  width: 1100px;
   display: flex;
   box-shadow: 0px 0px 30px 3px #888888;
   border-radius: 5px;
@@ -171,6 +171,7 @@
   width: 50%;
   background-color: var(--bg-color);
   border-radius: 0 5px 5px 0;
+  flex-direction: column;
 }
 
 .input-field {
@@ -185,7 +186,7 @@
   line-height: 1.5;
   color: #212529;
   background-clip: padding-box;
-  border: 1.5px solid #ced4da;
+  border: 2px solid #ced4da;
   background-color: #ffffffbb;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -195,8 +196,8 @@
 
 .input-field:focus {
   outline: none !important;
-  border: 1.5px solid var(--menu-bg-color);
-  box-shadow: 0px 0px 15px 2px #adadad;
+  /* border: 2px solid var(--menu-bg-color); */
+  box-shadow: 0px 0px 15px 2px #ababab;
 }
 
 .input-btn {
@@ -207,10 +208,26 @@
   text-decoration: none;
   vertical-align: middle;
   user-select: none;
-  padding: 0.375rem 0.75rem;
+  padding: 0.375rem 2rem;
   font-size: 1rem;
   border-radius: 0.25rem;
   color: var(--bg-color);
+}
+
+.optional-btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  user-select: none;
+  padding: 0.375rem 3rem;
+  font-size: 1rem;
+  border-radius: 50px;
+  color: var(--bg-color);
+  background: none;
+  border: 1.5px solid var(--bg-color);
 }
 
 @media screen and (max-width: 1200px) {
